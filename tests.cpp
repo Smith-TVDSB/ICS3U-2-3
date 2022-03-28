@@ -9,7 +9,7 @@
 
 //TESTS
 
-TEST_CASE("Exercise One") //Named ExerciseOne, tagged with example
+TEST_CASE("Ex1") //Named ExerciseOne, tagged with example
 {
     
     CHECK(exerciseOne(0)=='F');
@@ -30,7 +30,7 @@ TEST_CASE("Exercise One") //Named ExerciseOne, tagged with example
     CHECK(exerciseOne(101)=='E');   
 }
 
-TEST_CASE("Exercise Two")
+TEST_CASE("Ex2")
 {
     CHECK(exerciseTwo("OAKS")==1);
     CHECK(exerciseTwo("oaks")==0);
@@ -39,7 +39,7 @@ TEST_CASE("Exercise Two")
     CHECK(exerciseTwo("hat")==0);
 }
 
-TEST_CASE("Exercise Three")
+TEST_CASE("Ex3")
 {
     CHECK(exerciseThree("Hello world", "Hello")=="found at 0");
     CHECK(exerciseThree("There is a snake in my boot", "snake")=="found at 11");
